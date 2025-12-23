@@ -60,7 +60,7 @@ https://www.debian.org/
 
 ====================
 ## Note there are countless UFW tutorials on the web. Info on digitalocean.com or help.ubuntu.com is likely very helpful.
-## I just haven't read the legal docs for those twoo sites.
+## I just haven't read the legal docs for those two sites.
 
 Debrezion (Dee) Berhe Gebre
 
