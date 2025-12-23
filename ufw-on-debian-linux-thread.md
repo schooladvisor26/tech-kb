@@ -10,17 +10,17 @@ To use the CLI version on Ubuntu, type and enter this into a terminal:
 `sudo ufw enable`
 (that enables it)
 `sudo ufw status`
-(that sees if it's enabled whenever you need to)
+(that lets sees if it's enabled whenever you need to)
 
 The process may be different on Debian or Fedora.
-On Debian GNU/Linux, if you arn't able to install anything via apt there's some steps you need to take briefly described here:
+On Debian GNU/Linux, if you aren't able to install anything via apt there's some steps you need to take briefly described here:
 https://lists.debian.org/debian-project/2020/11/msg00006.html
 
 (Btw, UFW is an important security tool. In Ubuntu you can get it in the app center if it's not already installed on your device.)
 If apt's not letting you update,
 Type and enter:
 `vi /etc/apt/sources.list`
-(to access that doc, careful now)
+(**to access that doc, be careful now**)
 Put a # in front of the cd-rom line
 
 On Debian GNU/Linux, there's a different way to install ufw if you have a separate root password. This is especially true if you're using a desktop environment like LXQt.
