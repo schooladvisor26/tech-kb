@@ -5,7 +5,7 @@ It's an easy to use firewall app available for Linux.
 Thread 1/7
 
 To use the CLI version on Ubuntu, type and enter this into a terminal:
-`sudo apt install ufw` 
+`sudo apt install ufw`  
  (that installs it)  
 `sudo ufw enable` 
 (that enables it)  
