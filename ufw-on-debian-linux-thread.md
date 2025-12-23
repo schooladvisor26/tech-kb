@@ -1,4 +1,5 @@
-ufw-on-debian-linux-thread
+# ufw-on-debian-linux-thread
+
 Basic details about UFW Uncomplicated Firewall.
 It's an easy to use firewall app available for Linux.
 Thread 1/7
