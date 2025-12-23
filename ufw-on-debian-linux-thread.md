@@ -35,7 +35,8 @@ You're root and can get apps. Follow the needed steps above to get UFW.
 
 UPDATE: For the possibly required step regarding editing /etc/apt/sources.list, it's easier to use nano instead of vi. Just type and enter nano /etc/apt/sources.list. Editing and saving a file in nano should be easy for many people. If you'd like to use vi or you're stuck, you should be able to edit the sources.list by running the command that starts with vi, pressing i, putting a pound sigh (#) in front of the line that begins with cd-rom, and then pressing Escape (Esc) on the keyboard and :wq and Enter. In addition, to access terminal in Ubuntu Linux, you can use the keyboard shortcut CTRL+ALT+T (last I checked). That's important to know in the first place.
 
-Helpful links:
+## Helpful links:
+
 UncomplicatedFirewall - Ubuntu Wiki
 https://wiki.ubuntu.com/UncomplicatedFirewall
 
