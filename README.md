@@ -6,7 +6,7 @@ Dee
 ### To be added eventually:
 1. [xubuntu-kb](https://dynalist.io/d/oTjIMoXnGUyuJ4J4wv20cjXm)
 2. [linux-mint-kb](https://dynalist.io/d/3fZyTGq8kKe6pSqRMe_ihlux)
-3. [debian-kb](https://dynalist.io/d/majqYu9yqWh4Ueiq0QBQkE6)
+3. [debian-kb](https://dynalist.io/d/majqYu9yqWh4Ueiq0QBQkE6_)
 4. [bunsenlabs-kb](https://dynalist.io/d/NLEMl5chaw3KgqEupPuwUj6a)
 
 ## Note to self:  
