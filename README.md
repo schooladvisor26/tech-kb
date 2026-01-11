@@ -8,6 +8,11 @@ Dee
 2. [linux-mint-kb](https://dynalist.io/d/3fZyTGq8kKe6pSqRMe_ihlux)
 3. [debian-kb](https://dynalist.io/d/majqYu9yqWh4Ueiq0QBQkE6_)
 4. [bunsenlabs-kb](https://dynalist.io/d/NLEMl5chaw3KgqEupPuwUj6a)
+5. pop-os-kb
+6. macos-kb
+7. bodhi-linux-kb
+
+(To add: Description of each OS and the hardware I was using.)
 
 ## Note to self:  
 Read the [GitHub Terms of Service - GitHub Docs](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) and [GitHub General Privacy Statement - GitHub Docs](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).  
