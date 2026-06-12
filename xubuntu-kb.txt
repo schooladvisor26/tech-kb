@@ -1,0 +1,221 @@
+xubuntu-kb
+Debrezion (Dee) Berhe Gebre
+https://www.facebook.com/debrezion.berhegebre
+
+(6-13-21 - 8-6-21)
+
+Xubuntu knowledge base
+From xubuntu-kb-2.txt
+6-13-21
+3:47 PM
+
+6-13-21
+Trash folder is found here: trash:/// in Thunar.
+
+6-14-21 
+Themes on Xubuntu
+I should change them for my second account (the desktop user) so I know when I'm logged into it.
+
+6-14-21
+Firefox addons
+about:addons
+
+Firefox settings
+about:preferences
+
+Note from 6-17-21
+About Profiles
+about:profiles
+
+6-14-21
+Edited: 7-13-21
+(Added thread about Bodhi updating for 4 hours)
+Bound to Come Up Again (# of posts and authors ("stats") according to Google)
+03-11-2020, 06:20 PM - 4 posts - 3 authors
+ClamAV found many threats; What do I do now?
+https://www.linuxquestions.org/questions/linux-security-4/clamav-found-many-threats%3B-what-do-i-do-now-4175671167/
+
+08-14-2018, 10:49 AM - 16 posts - 4 authors
+[SOLVED] ClamAV found an infected file... should I use Darik's Boot and Nuke?
+https://www.linuxquestions.org/questions/linux-security-4/clamav-found-an-infected-file-should-i-use-darik%27s-boot-and-nuke-4175636357/
+
+05-24-2020, 02:27 PM - 10 posts - 4 authors
+[SOLVED] Is it a security problem if I can can't remove terminal history?
+https://www.linuxquestions.org/questions/linux-newbie-8/is-it-a-security-problem-if-i-can-can%27t-remove-terminal-history-4175675821/
+
+07-07-2020, 01:43 PM - 1 posts - 8 authors
+What should I do on a fresh install of an Ubuntu based OS, especially security wise?
+https://www.linuxquestions.org/questions/bodhi-92/what-should-i-do-on-a-fresh-install-of-an-ubuntu-based-os-especially-security-wise-4175678303/
+
+https://help.ubuntu.com/community/Security
+
+07-21-2019, 02:46 PM - 16 posts - 5 authors
+[SOLVED] My ClamAV installation is saying its outdated Ubuntu 16.04 and I don't know how to update it
+https://www.linuxquestions.org/questions/linux-software-2/my-clamav-installation-is-saying-its-outdated-ubuntu-16-04-and-i-don%27t-know-how-to-update-it-4175657810/
+
+This one may not be something I encounter again but I thought I should include it:
+03-03-2020, 04:49 PM - 8 posts - 4 authors
+[SOLVED] Something seems wrong with my WordPress.com app
+https://www.linuxquestions.org/questions/linux-security-4/something-seems-wrong-with-my-wordpress-com-app-4175670684/
+
+07-07-2020, 01:43 PM - 14 posts - 9 authors
+Bodhi 5.1 no software updater
+https://www.linuxquestions.org/questions/bodhi-92/bodhi-5-1-no-software-updater-4175673410/
+
+08-07-2020, 01:42 PM - 9 posts - 4 authors
+[SOLVED] Why am I getting updates for apps I don't have?
+https://www.linuxquestions.org/questions/bodhi-92/why-am-i-getting-updates-for-apps-i-don%27t-have-4175680065/
+
+05-26-2020, 06:57 PM - 14 posts - 9 authors
+[SOLVED] Does my ISP know which Distro I'm using?
+https://www.linuxquestions.org/questions/linux-general-1/does-my-isp-know-which-distro-i%27m-using-4175675962/
+
+ 03-24-2020, 05:58 PM 
+[SOLVED] What do I do if Bodhi has been updating for 4 hours
+https://www.linuxquestions.org/questions/showthread.php?s=84627b551d5cbe7d8c10ae5d41a9e026&p=6104701#post6104701 
+### I don't know why I didn't find this in my list of threads or in a Google search.
+
+6-14-21
+I can type the name of a program in a terminal to launch it. If it's a browser I can add a URL to open a site. I can type:
+firefox https://www.google.com
+to lauch google in firefox
+
+6-14-21
+New to me apps
+AppArmor
+ExpressVPN
+zero log VPN like Nord
+Firejail (SUID)
+
+6-14-21
+7-7-20 4:19 PM
+https://easylinuxtipsproject.blogspot.com/p/security.html
+
+6-14-21
+Windows 10 will in fact reach EOL in 2025. I find it a little disappointing but my Linux OS will only be supported until 2023. By the way, the Zorin OS 15 ISO I downloaded is based on Ubuntu 18.04 and may also only be supported until 2023 (5 years). 
+
+6-15-21
+I can use the mv command to rename a file. I think I read that to a computer moving a file and renaming is essentially the same thing in a book about Linux or Ubuntu.
+
+
+6-17-21
+There seems to be "known problems" with Xfce power management and Debian.
+
+6-18-21
+9:16 AM
+AppArmor has pages on Ubuntu's sites (on Debian and Arch too).
+MAC, as far as AppArmor goes, stands Mandatory Access Control.
+https://askubuntu .com/questions/236381/what-is-apparmor
+
+6-30-21
+9:35 AM
+Bound to Come Up Again (# of posts ("stats"))
+[SOLVED] Flagfox indicates unusual server locations
+https://ubuntuforums.org/showthread.php?t=1957744&highlight=
+(2 replies)
+
+[SOLVED] best option for installing ubuntu on a windows pc
+https://ubuntuforums.org/showthread.php?t=2058094&highlight=
+(4 replies)
+
+[SOLVED] Debian will not start in dual-boot with 12.04
+https://ubuntuforums.org/showthread.php?t=1990879&highlight=
+(4 replies)
+
+[SOLVED] clamtk packages not authenticated - xubuntu 12.04
+https://ubuntuforums.org/showthread.php?t=2059122&highlight=
+(2 replies)
+
+[SOLVED] did i get hacked? here are the deta ils i'm supposed to put
+https://ubuntuforums.org/showthread.php?t=2061205&highlight=
+(4 replies)
+I can ask Ubuntu staff why my threads are still up.
+
+
+7-2-21
+4:25 PM
+I feel like my possible Trojans in Vivaldi cache may have been from Fourmilab.
+I first visited it on this PC on Tuesday, 22 June 2021 (6-22-21)
+and it was loaded again on 6-26-21 and today 7-2-21.
+I've closed the tab so it won't be loaded automatically again.
+The other site I'm not too sure about is Distrowatch.
+Although many Linux users rely on Distrowatch and if there was a problem with it I'm sure I would have heard about it by now.
+I visited DistroWatch .com on Saturday, 26 June 2021 (6-26-21).
+
+7-4-21
+"Automatic" Screenlock is a thing.
+
+7-5-21
+Remember Mousepad has tabs and Vim is said to be the most popular text editor in the world.
+
+7-7-21
+7:09 AM
+Browse networks in File Manager, whatever that means, by going to network:///.
+
+7-8-21
+2:45 PM
+I think the trojan in Vivaldi cache could have been from this Miamioh (Miami University Ohio) site too. It's an unfamilar site to me, looks old, and said something strange at the bottom of the page.
+It said the page had been visited once.
+Muds and IRC-The Heroin of the Internet?::Internet Relay Chat
+www . units . miamioh . edu/psybersite/cyberspace/addiction/irc.shtml
+
+7-14-21
+2:56 PM
+uptime cmd
+Options
+-p (display uptime in pretty format)
+-s (display timestamp when system was booted)
+Normally the command shows the current time in military format and then shows uptime in HH:MM and some other info.
+
+7-19-21
+I've heard that the lscpu command will tell you if a machine is 32-bit.
+
+
+8-5-21
+3:56 PM
+Discord | Your Place to Talk and Hang Out
+ discord.com
+Terms of Service | Discord
+40-51 minutes
+
+Last modified: May 7, 2020.
+
++
+Privacy Policy | Discord
+20-25 minutes
+
+Last updated and effective: June 23, 2020
+Time estimates are according to Firefox on the desktop.
+Will this be what IRC and chat rooms were to youth in the 90s?
+
+8-6-21
+Ed the "Standard" text editor
+What did I learn from the video I watched on YouTube? 
+I learned that the program is terse which means it's abrupt or it doesn't print much information. 
+It's from the late 1960s when computing was different. According to the YouTuber, Ed is a line editor not a full blown text editor.
+He said you would not write a novel in it.
+The young man also said it's still useful to know about.
+He said you may SSH into a server and Ed may be the only editor on it.
+One huge takeaway was that the date command prints the current date and time.
+I was able to follow along with the tutorial flawlessly but I got a little confused and missed some things when he mentioned searching.
+
+8-6-21
+date command prints date.
+
+8-6-21
+3:39 PM
+Gnome Software does not remove dependencies installed with a package. 
+To remove any dependencies no longer needed, run sudo apt-get autoremove in a terminal. 
+Before agreeing to the command continuing, check that the packages being marked for removal are as expected.
+from "Chapter 9. Managing installed applications" of Xubuntu Documentation
+file:///usr/share/xubuntu-docs/user/C/managing-applications.html#gnome-software
+
+8-6-21
+4:43 PM
+I once heard about someone adding dot and then their initials to every file they save.
+So resume.odt might be resume.jj.odt
+The person said it was done so he or she could use the locate command to search for their initials and see only files they created or something.
+I thought that was a neat idea, but I never got in the habit of doing it.
+I don't know if it's necessary since I save everything in my home folder anyway.
+I know every file I create or put on my computer is pretty much in my home folder.
+
