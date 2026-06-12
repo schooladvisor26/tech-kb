@@ -1,0 +1,648 @@
+linux-mint-kb
+Debrezion (Dee) Berhe Gebre
+https://www.facebook.com/debrezion.berhegebre
+
+(1-2-22 - 5-9-22)
+
+Linux Mint knowledge base
+From mint-kb-2-2022.txt
+
+Dee
+9:53 AM
+1-2-22
+# Stan #
+
+Dee
+1-2-22
+
+
+1-2-22
+From Obsidian legal doc:
+Q. I'm a freelancer/writer/blogger, do I need a commercial license? 
+A: Unless you hire at least one person full time, you do not need a commercial license.
+
+
+1-2-22
+I would like a flash drive for the other backup tool in Linux Mint.
+I wouldn't mind one for my other computer too too.
+I would like two SD cards too (one for my phone and one for one my computer that has an SD card port).
+I would also like some blank discs and wired headphones.
+This is a wish list.
+I just don't want ports to get dusty because they were unused.
+I want to test out the backup tool.
+And I want to preserve space on my phone (I have 64 GB total).
+The only files I could see myself saving to an SD card are pictures or PDF documents.
+I don't save many of either type of file.
+
+1-3-22
+I would make an knowledge-base or database folder but I don't have many files to archive.
+I don't plan on saving many to my Desktop either.
+
+1-7-22
+There are problems with the Bunsen Labs Linux forum and MS hosted email.
+
+1-9-22
+https://bitwiseindustries dot com/wp-content/uploads/2021/05/WFT-Handbook-2021.pdf
+(no longer in business)
+
+1-9-22
+ClamTk, v6.02
+Sun Jan 9 13:48:25 2022
+ClamAV Signatures: 8617819
+Found 0 possible threats (1902657 files scanned).
+
+No threats found.
+---------------------------------------------
+
+1-9-22
+I'm just going to not leave comments on Timeshift snapshots for now.
+Hopefully, that will prevent it from "breaking" and not making automatic snapshots.
+A while back (last month) I made a comment on the first snapshot and then it stopped making them.
+That snapshot was the very first one to be made and the first one to be made automatically.
+
+1-10-22
+Last night, I disabled virtualization in BIOS to get VirtualBox to run 64-bit guest OSs.
+There was some other virtualizaiton setting that I left disabled.
+
+1-10-22
+Github key (password)
+Make sure it's at least 15 characters OR at least 8 characters including a number and a lowercase letter.
+ 
+1-11-22
+Don't install Virtual Box extensions until you know how much storage you need for class.
+
+1-12-22
+VS Code
+CTRL+SHIFT+P (one shortcut to open "everything")
+Try searching view toggle.
+
+Line Actions
+Ctrl+C copies an entire line when no text is selected.
+Alt+UpArrow and Alt+DownArrow moves lines
+Ctrl+Shift+K deletes lines
+Ctrl+/ to comment
+Rename Factoring
+F2 or Right-click rename symbol (Work as opposed to Book in list)
+Formatting
+Ctrl+Shift+I to format conten for the entire document
+Ctrl+K Ctrl+F for hte selection
+Tip: Additional options are available in the extensions gallery or can be setup via settings.
+Try editor.FormatOnSave.
+Code Folding
+It can be helpful to "collapse" sections of code in large files to "increase readability.
+Ctrl+Shift+[ to fold and Ctrl+Shift+] to unfold sections of code.
+Ctrl+K Ctrl+0 or Ctrl+K Ctrl+J to unfold all.
+Tip: Folding is based on indentation so it applies to all languages.
+That means you can just indent your code and fold "certain number of levels" with the shortcuts Ctrl+K Ctrl+1 through Ctrl+K Ctrl+5.
+Errors and Warnings
+Snippets
+Emmet
+JavaScript Type Checking
+Thanks!
+
+1-13-22
+Disable auto updates in VS Code
+Gear icon, Settings, Application, Update, Manual
+
+1-14-22
+ClamTK
+Antivirus signatures 26422
+
+1-14-22
+I made the following changes to Power Management
+Turn off the screen when inactive for
+ 15 minutes
+Suspend when inactive for
+ 30 minutes
+When the lid is closed
+ Lock screen
+
+1-15-22
+7:25 PM
+Create Zip archive for backups?
+Backup Bunsen Labs iso?
+
+1-16-22
+Power Options in Power Management
+On A/C power
+Turn off the screen when inactive for
+ 10 minutes
+Suspend when inactive for
+ 30 minutes
+When the lid is closed
+ Suspend
+
+On battery power (initially left unchanged but I don't know if it changes automatically when other settings are changed)
+Now changed
+Turn off the screen when inactive for
+ 5 minutes
+Suspend when inactive for
+ 15 minutes
+When the lid is closed
+ Suspend
+I still haven't heard back from JG about using laptops without batteries.
+
+1-17-22
+I like conky, but what's the point of something that displays CPU usage that uses so much of it.
+Did I get owned using that script from any old source online?
+Let me see if conky uses a lot of CPU resources in BL.
+Zero percent (0%) of CPU was being used in Bunsen Labs in VirtualBox.
+I also noticed that while conky is "using" CPU, I'm still only "using" less than 5% of CPU resources.
+
+1-18-22
+Create TDL-1.odt.
+
+1-21-22
+Fri. - Timshift Snapshot day
+My Linux laptop was on, but I was not logged in at noon.
+Timeshift started making a snapshot at 12:00:02 instead of 12:00:01.
+I don't know if that's a big deal.
+I also have 13.3 GB available on the drive for snapshots.
+
+1-25-22
+Turned off the setting to make a sound when a device is removed on Admin account.
+
+1-26-22
+I uninstalled Thunderbird but didn't remove everything "attached" to it.
+The other day, I got a security update for one of its extensions or something.
+
+1-27-22
+Cog, Exit in Google Chrome closes the current window and all other Google Chrome Windows.
+
+1-28-22
+Use ls -og to list storage but remove owner and group details.
+Source: superuser dot com (a SE site).
+Tested: once.
+[ ] Review notes form Linux in easy steps.
+Ch. 9 Commanding the Terminal
+
+1-28-22
+Changing the contents of a text file does in fact change the "sha 256 sum."
+I tried it on a document called vim-test.txt
+
+1-28-22
+There's code you can use to backup Firefox profiles.
+
+2-4-22
+I upgraded to Chrome 98 today around 4:23 PM.
+
+2-6-22
+github help
+I updated a README file through the GitHub web interface (github .com) and "downloaded" the changed file.
+How did I do it?
+first steps:
+I don't see the old branch so it's kind of hard to tell exactly what I did.
+I think I went to Pull requests, clicked merge files, and then I know I deleted the old branch (new_branch).
+There may have been a part where I had to close the request.
+
+last steps:
+cd hello-world/
+git log
+git pull
+ (Entered my ssh passphrase)
+Now I have the new line about liking skateboards in a page about me and there are no open pull requests and 1 closed.
+It sounded like the young person who helped me today said to make changes on my machine instead of the web interface.
+It's just that a certain YouTuber talked about how you can make changes on github .com and I think it's useful.
+
+2-8-22
+Dragging a file from the desktop to a folder in Nemo in Linux Mint, makes a copy of the file land in the folder.
+It doesn't cut the file.
+
+2-9-22
+Download link for recent version of VirtulBox
+https://download.virtualbox.org/virtualbox/6.1.32/virtualbox-6.1_6.1.32-149290~Ubuntu~eoan_amd64.deb
+
+2-9-22
+I plan on setting up Bodhi Linux in a VM.
+What steps have I taken?
+I downloaded the standard HWE ISO.
+I created a "VM" choosing 2.5 GB of RAM and 10 GB of storage space.
+I still chose a fixed "hard drive" option like last time.
+I think they may be faster to use.
+I booted into B-Linux and checked my internet connection from within it.
+Now it's 11:07 PM and my eyes are burning.
+
+2-12-22
+questions
+Does the OS listed on VirtualBox have to match the OS or OS base for the guest OS?
+Should you always have to plug in a laptop to apply system updates? On Linux?
+Is Linux good for medium businesses?
+Is Linux good for startups?
+
+2-13-22
+6:34 PM
+I backed up practice09 code to Dynalist.
+
+2-18-22
+Update commands
+sudo apt update
+sudo apt list --upgradable
+sudo apt --distupgrade
+
+2-25-22
+11:46 AM
+I burned Bunsen Labs 3 Lithium, Bodhi Linux 6.0 and my desktop user account files to DVDS this morning.
+
+2-25-22
+I'm using Linux Mint 20.2 Uma.
+...
+I need a bigger external drive for Timeshift.
+...
+4:49 PM
+Bodhi Linux AppPack has Timeshift
+
+3-1-22
+sec update
+glibc - GNU C Library: National Language (locale) data [support]
+2.31.0ubuntu9.7
+
+3-1-22
+Instructions for Data backups using Backup Tool (SOP)
+1. Insert USB flash drive
+2. Launch backup tool (not Timeshift)
+3. Click on "Back Up Now..." under Personal data
+4. Choose where you want the backup file (choose the USB Flash drive)
+5. Exclude any directories you need to exclude like maybe VirtualBox VMs.
+6. On the next screen, include any directories normally hidden that you need to include (I never incluude any).
+7. Click OK or Backup or whatever it says.
+8. I've yet to Restore any personal data (backups) which is an option on the first screen.
+
+3-1-22
+Instructions for Software selection backups using Backup Tool (SOP)
+Eventually will write about this.
+It seems mainly necessary if you install a lot of software.
+I don't.
+This process may simpler, but file names can be tricky.
+Do note that if you want the complete list of all installed packages on the system,...
+Use the command:
+dpkg --get-selections > mylist.list
+in a terminal.
+
+The current list I have now reads as follows:
+clamav	install
+clamav-base	install
+clamav-freshclam	install
+clamtk	install
+code	install
+git	install
+google-chrome-stable	install
+virtualbox-6.1	install
+vivaldi-stable	install
+zoom	install
+
+3-2-22
+VS Code About Information (after getting messages about sessions restored)
+Version: 1.64.2
+Commit: f80445acd5a3dadef24aa209168452a3d97cc326
+Date: 2022-02-09T22:02:29.527Z
+Electron: 13.5.2
+Chromium: 91.0.4472.164
+Node.js: 14.16.0
+V8: 9.1.269.39-electron.0
+OS: Linux x64 5.4.0-100-generic
+
+The ninth was 2wks ago.
+That part just didn't get copied.
+
+3-8-22
+11:11 AM
+Commands To Shutdown And Reboot On Linux
+sudo systemctl start reboot.target
+sudo systemctl reboot 
+sudo reboot
+reboot
+
+sudo systemctl start shutdown.target
+sudo shutdown
+shutdown
+
+halt
+
+sudo shutdwon -r
+ (for reboot)
+
+sudo shutdwon -r 10
+ 10 minutes
+sudo shutdown -r now
+
+sudo shutdown -H now
+sudo shutdown 22:30
+sudo shutdown -c
+
+sudo reboot -p
+ (for shutdown)
+sudo reboot -f
+ (force)
+
+sudo init 6
+ (reboot)
+sudo init 0
+ (shutdown)
+
+Nuclear option (kind of)
+ SysRQ (PrtSc (print screen))
+cat /proc/sys/kernel/sysrq
+
+Hold down:
+ALT+SysRQ and then a sequence of letters.
+
+!! What you want is 1.
+
+sudo echo "1" > /proc/sys/kernel/sysrq
+
+echo "1" | sudo tee /proc/sys/kernel/sysrq
+
+ALT+SysRq+r+e+i+s+u+b
+ (for reboot)
+
+
+ALT+SysRq+r+e+i+s+u+o
+ (for shutdown)
+
+3-10-22
+9:50 AM
+updates
+libglvnd
+language-pack-gnome-en
+language-pack-gnome-en-base
+Linux Kernel 5.4.0-104.118
+
+expat
+libdrm
+llvm-toolchain...
+mesa
+
+3-16-22
+1:10 PM
+Updates
+libxml2
+ (GNOME XML library)
+XML: a metalanguage Used to let you design your own markup language
+
+3-20-22
+2:39 PM
+To skip installing or updating kernel or other packages while using the yum update utility in Red Hat Enterprise Linux 5, 6, and 7, use following options: Temporary solution via Command line: Raw # yum update --exclude=PACKAGENAME
+How do I exclude kernel or other packages from getting ...
+access.redhat.com/solutions/10185
+access.redhat.com/solutions/10185
+
+3-20-22
+2:44 PM
+How to Update Ubuntu Linux - How to Geek
+https://www.howtogeek.com/740795/how-to-update-ubuntu-linux/
+sudo apt install --only-upgrade package_name
+sudo apt update && sudo apt upgrade -y
+
+3-21-22
+3:35 PM
+I can upgrade to Linux kernel 5.4.0-105.119 on Mint.
+
+3-21-22
+6:59 PM
+I really don't know if the Uptime on my conky setup is accurate.
+Right now, 3-21-22 at 6:55 PM, it says 3d 23h 4m but I don't remember having my machine up for that long.
+
+I can test it.
+On another note, I should get Wifi set up on this thing soon.
+
+3-24-22
+11:52 AM
+Updates
+firefox 98.0.2+linuxmint1+una
+thunderbird Calendar Extension
+tzdata
+ (Time zone and daylight-saving time data)
+
+
+3-25-22
+12:21 PM
+security update
+openvpn
+ (Virtual private network daemon)
+All the updates I've been installing have been security updates.
+2.4.7...
+
+3-27-22
+3:08 PM
+I just created a shortcut to a document.
+Name: 2022-notes.txt
+Command: xed Documents/2022-notes.txt
+Comment: Launch 2022-notes.txt in Xed
+
+4-7-22
+Sys upd warning
+dpkg: warning: unable to delete old directory '/var/lib/fwupd': Directory not empty
+
+4-8-22
+Antivirus signatures
+26506
+
+4-13-22
+Philipians Day
+I was able to issue: "sudo apt update" in a tty over ethernet and Wifi.
+I had to be in my admin account because I had to use sudo.
+
+4-13-22
+Thought process while installing Bullseye in a virtual machine
+(Looking up system requirements on phone) Aw! I only needed 2 GB not 15 for a "no desktop" install
+(Looking at progress) LibreOffice? I thought I wasn't getting a GUI!
+(Looking up Debian Wiki) To install no desktop environment I had to deslect all options?
+
+4-13-22
+Debian 11 took like 1.5 hours to install in a VM.
+That worries me.
+I was able to verify the sha256sum.
+It was okay.
+So did the sha512sum which I didn't even know was a thing.
+
+...
+I did something bad.
+So I ran this command without knowing what it does:
+ $ gpg --recv-keys
+I got it from :
+I didn't even type what was listed.
+Then I got this:
+ gpg: keybox '/home/USER/.gnupg/pubring.kbx' created
+Then when I typed this (the command from the Debian dot org site)
+ $ gpg --keyserver --recv-keys
+I got this
+gpg: WARNING: no command supplied. Trying to guess what you mean ...
+gpg: Go ahead and type your message ...
+gpg --keyserver keyring.debian.org --recv-keys 0x2404C9546E145360
+^C
+gpg: signal Interrupt caught ... exiting
+
+Finally, I issued this:
+ $ gpg --keyserver keyring.debian.org --recv-keys 0x2404C9546E145360
+and got this output:
+gpg: /home/USER/.gnupg/trustdb.gpg: trustdb created
+gpg: key 2404C9546E145360: public key "Gunnar Wolf <gwolf@gwolf.org>" imported
+gpg: Total number processed: 1
+gpg: imported: 1
+
+All I know is verifying Debian ISOs may be different from verifying other ISOs.
+This is according to:
+ https://www.zdnet.com/article/verifying-the-integrity-of-linux-iso-images/
+Mint does things differently.
+I also heard something about checking sha256sums being different than doing what I tried.
+As far as I know, using gpg may not be necessary.
+I think this especially considering Debian is mature and secure and I'm just using it in a VM.
+At the same time, I may back up the ISO and I don't want to download it again.
+I just don't know about all this stuff.
+If I plan on using this non-free Debian ISO, I should make sure it's safe.
+The thing is I don't know why it wouldn't be.
+
+Now with things like Bodhi Linux and antiX, I may have to verify the ISOs.
+Those are much smaller projects and I can't be too safe.
+
+...
+I've been at all this all day.
+Good news?:
+user@host:~/Downloads$ sha256sum -c bodhi-6.0.0-64-hwe.iso.sha256
+bodhi-6.0.0-64-hwe.iso: OK
+user@host:~/Downloads$ sha256sum -c antiX-21_x64-full.iso.sha256
+antiX-21_x64-full.iso: OK
+user@host:~/Downloads$ 
+One thing I know is md5sum seems outdated.
+I got that from today's research and a book written like two years ago.
+I was also able to verify the sha256sum of Bunsen Labs 3.
+I did with the sha256 command, CTRL+F, and this link:
+ https://ddl.bunsenlabs.org/ddl/lithium-3.sha256sums.txt
+ ~/Downloads$ sha256sum lithium-3-amd64.hybrid.iso 
+
+...
+FOSS
+ Stallman
+ Torvalds
+ Eric Raymond
+
+4-13-22
+I should have read this:
+keyring.debian.org only deals with keys for Debian project Member. 
+Please do not send add requests for your key if you are not an existing DD or DM; 
+the Debian Account Managers will submit the key add request for new members when they successfully complete the New Member process.
+I think that means I was on the wrong page.
+The info didn't apply to me and my case.
+
+I tried an answer from here:
+ https://unix.stackexchange.com/questions/138603/how-to-verify-debian-iso-integrity
+But I just ran the same command including keyring.debian.org :(
+
+4-19-22
+sec upd
+libarchive
+Mulit-format archive and compression library (shared libary)
+3.4.0.2-ubuntu1.2
+
+4-19-22
+Add 3-2-1 backup rule to LQ signature?
+
+4-25-22
+Minimal install of Jammy Jellyfish if any install at all.
+I don't like what I heard about snaps though.
+They apparently update on their own.
+I heard that from someone in a YouTube video.
+
+4-26-22
+Interesting commands
+aptitude
+sha256sum -c bodhi-6.0.0-64-hwe.iso.sha256
+sha512sum firmware-11.3.0-amd64-netinst.iso
+find planner-2022-03.txt
+find planner-2022-0*
+cal 12 2013
+ls -og
+free -h
+
+4-27-22
+Msg when launching Vivaldi Private window since I changed my password.
+The password you use to login to your computer no longer matches the one used for your keyring.
+The password you use to login to your computer no longer matches that of your login keyring.?
+
+...
+Sys upd
+sec
+distro-info-data
+ Information about hte distributions' releases (data files)
+libsepol
+ SELinux library for manipulating binary security policies
+openjdk-lts
+ OpenJDK Java runtime, using Hotspot JIT (headless)
+thunderbird
+ Calendar Extension for Thunderbird (transitional package)
+
+...
+The main thing I like about Linux Mint with Cinnamon is the "updates notifer."
+I like that Mint's kind of fast on my computer too.
+It seems to boot up faster than Xubuntu 20.04 did.
+Maybe I should use Debian with Mate and also LXQt (instead of GNOME or Cinnamon).
+
+5-1-22
+sec upd
+curl
+ Command line tool for transferring data with URL syntax
+
+5-2-22
+One thing I heard on a forum was the idea that turning off you Linux system during an update can mess things up.
+
+...
+Installing flatpaks in Ubuntu MATE 22.04
+You may not see them in the Boutique.
+Visit flathub.
+Download the file of your choice.
+There may not be a way to just install the file like you can with Gdebi.
+Open the folder where the file is in in terminal.
+Run the following command:
+ flatpak install packagename
+Replace packagename with the name of the file.
+
+5-5-22
+Sec upd
+mysql-8.0
+networkd-dispatcher
+ Dispatcher service for systemd-networkd connection status changes
+openssl
+ Secure Sockets Layer toolkit - cryptographic utility
+sqlite3
+ SQLite 3 shared library
+
+5-5-22
+I was surprised I only have 89 GB free on my 150 GB hard drive.
+I thought about then I remembered I have 3 VMs.
+I guess I won't be dual booting until I get a bigger hard drive.
+Also, in the back of my mind I'm thinking I'm going to go for a heavy weight distro.
+That way I won't be using a lightweight host with heavy guests.
+
+5-6-22
+I don't have a pet name for my computer.
+Let's call it Shiloh.
+Important info:
+My CPU: Intel i7 - 3.5 GHz
+ (Intel i7-2640M (4) @ 3.500GHz)
+My GPUs:
+ NVIDIA Quadro
+ Intel 2nd Generation Core Processor
+What will I call my Chromebook!
+
+5-9-22
+Story of my life
+Conky looks weird on Bodhi
+Comes with Bunsen Labs
+And may not work on GNOME
+The second one isn't that bad.
+/
+.
+.
+.
+.
+
+
+
+
+
+/
+.
+.
+.
+.
+
