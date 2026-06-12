@@ -1,0 +1,482 @@
+debian-kb
+Debrezion (Dee) Berhe Gebre
+https://www.facebook.com/debrezion.berhegebre
+
+(6-29-22 - 10-19-22)
+
+From: debian-kb.txt
+
+D.
+debian knowledge base
+Wed 29 Jun 2022 12:13:53 PM PDT 
+
+6-29-22
+cd /
+df -h
+df: /run/user/1000/doc: Operation not permitted
+Filesystem Size Used Avail Use% Mounted on
+udev 3.9G 0 3.9G 0% /dev
+tmpfs 784M 1.4M 783M 1% /run
+/dev/sda1 915G 6.6G 862G 1% /
+tmpfs 3.9G 0 3.9G 0% /dev/shm
+tmpfs 5.0M 4.0K 5.0M 1% /run/lock
+tmpfs 784M 104K 784M 1% /run/user/1000
+
+cd /
+du -h
+6.6G
+
+6-29-22
+Wed 29 Jun 2022 01:42:05 PM PDT 
+apt install ufw
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following NEW packages will be installed:
+ ufw
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 167 kB of archives.
+After this operation, 857 kB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian bullseye/main amd64 ufw all 0.36-7.1 [167 kB]
+Fetched 167 kB in 0s (1,085 kB/s)
+Preconfiguring packages ...
+Selecting previously unselected package ufw.
+(Reading database ... 229842 files and directories currently installed.)
+Preparing to unpack .../archives/ufw_0.36-7.1_all.deb ...
+Unpacking ufw (0.36-7.1) ...
+Setting up ufw (0.36-7.1) ...
+
+Creating config file /etc/ufw/before.rules with new version
+
+Creating config file /etc/ufw/before6.rules with new version
+
+Creating config file /etc/ufw/after.rules with new version
+
+Creating config file /etc/ufw/after6.rules with new version
+Created symlink /etc/systemd/system/multi-user.target.wants/ufw.service → /lib/s
+ystemd/system/ufw.service.
+Processing triggers for rsyslog (8.2102.0-2+deb11u1) ...
+Processing triggers for man-db (2.9.4-2) ...
+
+6-29-22
+2:13 PM
+Projects
+- [x] Get KDE GUI working (just had to wait)
+- [x] Do further research on antivirus on Linux 7-4-22
+- [ ] Research Timeshift
+
+6-29-22
+$ apt list --installed | wc -l
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+2030
+
+6-30-22
+Thu 30 Jun 2022 06:19:26 AM PDT 
+Command to see how many packages (apt packages) installed on a system-
+$ apt list --installed | wc -l
+(That's a pipe after --installed and an "l" not a one after wc (word count)
+
+7-6-22
+2022-07-06 10:18:12 
+The Python book I rented said it was not for learning Python.
+It said there was a section in it for resources that do that.
+It also said it was for those familar with the language or could help those who need to read code written it.
+It mentioned these commands in the section on installing it in Linux:
+ apt-cache search <package name>
+ yum search <package name>
+
+7-11-22
+2022-07-11 14:04:53 
+# apt list --upgradable
+Listing... Done
+base-files/stable 11.1+deb11u4 amd64 [upgradable from: 11.1+deb11u3]
+bash/stable 5.1-2+deb11u1 amd64 [upgradable from: 5.1-2+b3]
+distro-info-data/stable 0.51+deb11u2 all [upgradable from: 0.51+deb11u1]
+dpkg/stable 1.20.11 amd64 [upgradable from: 1.20.10]
+libcpupower1/stable 5.10.127-1 amd64 [upgradable from: 5.10.120-1]
+libdpkg-perl/stable 1.20.11 all [upgradable from: 1.20.10]
+libfreetype6/stable 2.10.4+dfsg-1+deb11u1 amd64 [upgradable from: 2.10.4+dfsg-1]
+libfribidi0/stable 1.0.8-2+deb11u1 amd64 [upgradable from: 1.0.8-2]
+libgnutls30/stable 3.7.1-5+deb11u1 amd64 [upgradable from: 3.7.1-5]
+libnm0/stable 1.30.6-1+deb11u1 amd64 [upgradable from: 1.30.0-2]
+libsdl2-2.0-0/stable 2.0.14+dfsg2-3+deb11u1 amd64 [upgradable from: 2.0.14+dfsg2-3]
+libsmbclient/stable 2:4.13.13+dfsg-1~deb11u4 amd64 [upgradable from: 2:4.13.13+dfsg-1~deb11u3]
+libwbclient0/stable 2:4.13.13+dfsg-1~deb11u4 amd64 [upgradable from: 2:4.13.13+dfsg-1~deb11u3]
+linux-image-amd64/stable 5.10.127-1 amd64 [upgradable from: 5.10.120-1]
+logrotate/stable 3.18.0-2+deb11u1 amd64 [upgradable from: 3.18.0-2]
+nano/stable 5.4-2+deb11u1 amd64 [upgradable from: 5.4-2]
+network-manager/stable 1.30.6-1+deb11u1 amd64 [upgradable from: 1.30.0-2]
+openssh-client/stable 1:8.4p1-5+deb11u1 amd64 [upgradable from: 1:8.4p1-5]
+orca/stable 3.38.2-2 all [upgradable from: 3.38.2-1]
+python3-samba/stable 2:4.13.13+dfsg-1~deb11u4 amd64 [upgradable from: 2:4.13.13+dfsg-1~deb11u3]
+samba-common-bin/stable 2:4.13.13+dfsg-1~deb11u4 amd64 [upgradable from: 2:4.13.13+dfsg-1~deb11u3]
+samba-common/stable 2:4.13.13+dfsg-1~deb11u4 all [upgradable from: 2:4.13.13+dfsg-1~deb11u3]
+samba-dsdb-modules/stable 2:4.13.13+dfsg-1~deb11u4 amd64 [upgradable from: 2:4.13.13+dfsg-1~deb11u3]
+samba-libs/stable 2:4.13.13+dfsg-1~deb11u4 amd64 [upgradable from: 2:4.13.13+dfsg-1~deb11u3]
+smbclient/stable 2:4.13.13+dfsg-1~deb11u4 amd64 [upgradable from: 2:4.13.13+dfsg-1~deb11u3]
+usb.ids/stable 2022.05.20-0+deb11u1 all [upgradable from: 2022.02.15-0+deb11u1]
+wireless-regdb/stable 2022.04.08-2~deb11u1 all [upgradable from: 2020.04.29-2]
+
+7-11-22
+cd /
+du -h
+7.0G
+
+7-11-22
+2022-07-11 14:35:43 
+According to howtogeek dot com, Debian runs on older or low powered machines better than Ubuntu does.
+
+7-17-22
+6:53 AM
+I can install OS updates one by one using Discover in KDE.
+God bless KDE.
+
+7-17-22
+2022-07-17 09:23:23 
+9:23 AM
+Backing up terminal history about once a month again would be a good idea.
+
+7-17-22
+2022-07-17 17:04:08 
+You can create PDF files out of text files by opening them in Firefox and "printing" to PDF.
+
+7-20-22
+2022-07-20 11:10:20 
+11:10 AM
+$ apt-cache depends chromium
+chromium
+ Depends: libasound2
+ Depends: libatk-bridge2.0-0
+ Depends: libatk1.0-0
+ Depends: libatomic1
+ Depends: libatspi2.0-0
+ Depends: libc6
+ Depends: libcairo2
+ Depends: libcups2
+ Depends: libdbus-1-3
+ Depends: libdrm2
+ Depends: libevent-2.1-7
+ Depends: libexpat1
+ Depends: libflac8
+ Depends: libfontconfig1
+ Depends: libfreetype6
+ Depends: libgbm1
+ Depends: libgcc-s1
+ Depends: libglib2.0-0
+ Depends: libjpeg62-turbo
+ Depends: libjsoncpp24
+ Depends: liblcms2-2
+ Depends: libminizip1
+ Depends: libnspr4
+ Depends: libnss3
+ Depends: libopenjp2-7
+ Depends: libopus0
+ Depends: libpango-1.0-0
+ Depends: libpng16-16
+ Depends: libpulse0
+ Depends: libre2-9
+ Depends: libsnappy1v5
+ Depends: libstdc++6
+ Depends: libwebp6
+ Depends: libwebpdemux2
+ Depends: libwebpmux3
+ Depends: libx11-6
+ Depends: libxcb1
+ Depends: libxcomposite1
+ Depends: libxdamage1
+ Depends: libxext6
+ Depends: libxfixes3
+ Depends: libxkbcommon0
+ Depends: libxml2
+ Depends: libxrandr2
+ Depends: libxslt1.1
+ Depends: zlib1g
+ |Depends: libgtk-3-0
+ Depends: <xdg-desktop-portal-backend>
+ xdg-desktop-portal-gtk
+ xdg-desktop-portal-kde
+ Depends: chromium-common
+ Conflicts: <libgl1-mesa-swx11>
+ Conflicts: <libnettle4>
+ Conflicts: libsecret-1-0
+ Breaks: chromium-lwn4chrome
+ Breaks: chromium-tt-rss-notifier
+ Recommends: chromium-sandbox
+ Suggests: chromium-l10n
+ Suggests: chromium-shell
+ Suggests: chromium-driver
+
+7-20-22
+7:35 PM
+echo contentofyournote > note.txt
+Ryan Wilson on Quora (1y ago)
+
+7-21-22
+12:29 PM
+2022-07-21 12:29:10 
+I can use apper in MATE to install updates one by one too.
+
+7-28-22
+1:38 PM
+2022-07-28 13:38:46 
+Don't understand-
+# apt list --upgradeable
+Listing... Done
+linux-image-amd64/stable-security 5.10.127-2 amd64 [upgradable from: 5.10.120-1]
+N: There are 2 additional versions. Please use the '-a' switch to see them.
+root@HOSTNAME:/home/USER# apt list --upgradeable -a
+Listing... Done
+linux-image-amd64/stable-security 5.10.127-2 amd64 [upgradable from: 5.10.120-1]
+linux-image-amd64/stable 5.10.127-1 amd64
+linux-image-amd64/now 5.10.120-1 amd64 [installed,upgradable to: 5.10.127-2]
+
+
+7-29-22
+3:14 PM
+2022-07-29 15:14:27 
+From superuser dot com
+View stats on the current line including file size in Vi/Vim
+press: g CTRL+g
+
+7-29-22
+3:17 PM
+Check Debian version: the quick and easy way - IONOS
+lsb_release -a
+lsb_release -d (for Debian version)
+
+8-2-22
+5:20 PM
+2022-08-02 17:20:25 
+Linux virus
+https://www.quora.com/How-do-I-know-if-my-Linux-computer-is-infected-with-a-virus-after-I-opened-pictures-and-a-video-someone-sent-to-me
+
+https://www.quora.com/Can-I-get-a-virus-on-Linux-from-surfing-the-web
+
+https://www.quora.com/My-Google-chrome-is-infected-with-virus-It-redirects-to-another-website-and-I-cannot-save-my-default-page-as-google-How-can-I-solve-this-problem
+
+https://www.quora.com/I-uploaded-files-that-are-infected-by-virus-from-my-computer-to-Google-drive-What-do-I-do
+
+8-5-22
+1:39 PM
+2022-08-05 13:29:59 
+Command to list almost all fonts on a Debian system
+source: bits dot debian dot org (Debian blog)
+$ apt-cache search ^fonts
+
+8-10-22
+2:32 PM
+My ThinkPad connects to wireless networks now.
+And I didn't need an adapter.
+
+...wireless
+2022-08-10 17:17:41 
+Cmd to know if wireless device has an interface available
+ip link show
+
+...
+2022-08-10 17:46:08 
+# apt upgrade
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Calculating upgrade... Done
+The following package was automatically installed and is no longer required:
+ linux-image-5.10.0-13-amd64
+Use 'apt autoremove' to remove it.
+The following packages will be upgraded:
+ gstreamer1.0-gtk3 gstreamer1.0-plugins-good
+2 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 4,547 kB of archives.
+After this operation, 2,048 B of additional disk space will be used.
+
+What's the difference between getting archives and how much additional disk space will be used?
+
+8-18-22
+7:44 PM
+apt-listchanges: News
+---------------------
+
+chromium-browser (104.0.5112.79-2) unstable; urgency=low
+
+ We've switched the default search engine from Google to DuckDuckGo.
+ To manually override it, just go into Settings, click "Search Engine",
+ and next to "Search engine used in the address bar", select a different
+ search engine from the pull-down.
+
+ Also, catching up on a few upstream changes:
+
+ TLSv1 and TLSv1.1 support have been completely dropped from chromium
+ (as described in https://chromestatus.com/feature/5759116003770368).
+ Support for CPUs that lack SSE3 extensions has also been dropped (as
+ described on
+ https://www.tomshardware.com/news/chrome-stops-working-on-old-processors).
+ Most users shouldn't notice, unless you're using older hardware or
+ "securely" communicating with older hardware.
+
+ Lastly, Chromium 101 changed a setting for host-based authentication.
+ This broke some folks' Kerberos, among other things. "AuthServerWhitelist"
+ was renamed to "AuthServerAllowlist", as described in
+:
+
+9-7-22
+4:39 PM
+Hit:1 http://deb.debian.org/debian bullseye InRelease
+Get:2 http://deb.debian.org/debian bullseye-updates InRelease [44.1 kB]
+Get:3 http://security.debian.org/debian-security bullseye-security InRelease [48.4 kB]
+Get:4 http://security.debian.org/debian-security bullseye-security/main Sources [151 kB]
+Get:5 http://security.debian.org/debian-security bullseye-security/main amd64 Packages [182 kB]
+Get:6 http://security.debian.org/debian-security bullseye-security/main Translation-en [114 kB]
+Fetched 539 kB in 2s (337 kB/s) 
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+9 packages can be upgraded. Run 'apt list --upgradable' to see them.
+root@HOSTNAME:/home/USER# apt list --upgradable
+Listing... Done
+chromium-common/stable-security 105.0.5195.102-1~deb11u1 amd64 [upgradable from: 105.0.5195.52-1~deb11u1]
+chromium-sandbox/stable-security 105.0.5195.102-1~deb11u1 amd64 [upgradable from: 105.0.5195.52-1~deb11u1]
+chromium/stable-security 105.0.5195.102-1~deb11u1 amd64 [upgradable from: 105.0.5195.52-1~deb11u1]
+libpoppler-cpp0v5/stable-security 20.09.0-3.1+deb11u1 amd64 [upgradable from: 20.09.0-3.1]
+libpoppler-glib8/stable-security 20.09.0-3.1+deb11u1 amd64 [upgradable from: 20.09.0-3.1]
+libpoppler-qt5-1/stable-security 20.09.0-3.1+deb11u1 amd64 [upgradable from: 20.09.0-3.1]
+libpoppler102/stable-security 20.09.0-3.1+deb11u1 amd64 [upgradable from: 20.09.0-3.1]
+linux-image-amd64/stable-security 5.10.136-1 amd64 [upgradable from: 5.10.127-2]
+poppler-utils/stable-security 20.09.0-3.1+deb11u1 amd64 [upgradable from: 20.09.0-3.1]
+
+9-18-22
+The "last" command.
+$ last
+See who was logged in last and any users currently logged in.
+It does not require root priveleges.
+
+The "who" command
+$ who
+Shows who's logged in (the system? the network?)
+
+The "w" command
+$ w
+Combines output from the who command and the uptime command.
+
+10-19-22
+DT on File naming conventions
+Immediately identify what the file is
+Helps you search for files
+Not non-descriptive, generic names
+Version numbers
+Files downloaded from the web with their own names can be a problem
+
+Project name (GIthub, Gitlab)
+project name
+author name
+date
+time stamp
+physical location
+version numbers (typically for software projects)
+
+Probably 95% of DT's files aren't named by him.
+They were created when he downloaded software.
+
+Every file name should be lowercase.
+Windows is case-insensitive when it comes to file names.
+It treats File1 and file1 as the same file.
+
+Every "sane" OS on the planet treats those two as separate files.
+We're all connected and interact with other users on other OSs.
+
+Never use spaces in file names.
+
+COMMANDS:
+perl-rename
+rename
+rename 'y/A-Z/a-z' TEST
+touch space\ file
+
+rename 'y/ /-' space\file
+touch
+ls
+cd ..
+cd Pic
+cd Pictures/
+ls
+touch TEST
+rename 'y/A-Z/a-z' TEST
+perl-rename 'y/A-Z/a-z' TEST
+cd
+history
+apt-cache search rename
+cd Pictures/
+touch space\ file
+rename 'y/ /-' space\ file
+touch space-file
+ls
+touch file-naming-2021-10-19
+ls
+date
+date -I
+DATE=$(date -I)
+touch file-naming-$DATE
+ls
+history
+
+Using hyphens or underscores
+Common advice is to always use only one or the other.
+That's really an argument for hyphens.
+Underscores look odd in date and time stamps.
+A lot of people will make exceptions.
+They may use underscores except for time stamps.
+Since you're going to use hyphens anyway for timestamps and hyphenated words, it's best to just use hyphens all the time.
+Most people seem to just recommend using hyphens.
+
+They're are big exceptions like WikiPedia pages.
+
+It's not about all of us using the same convention.
+It's about being consistent.
+
+Never use special characters.
+Web browsers will throw a fit.
+
+Never use these for stuff that could end up on the web
+{, ?, :, &, and /.
+
+For Linux
+Don't use $, &, {, ?, :, and /.
+
+ISO-8601
+YYYYMMDD
+or separate with hyphens to make it easier to read.
+
+man date
+All kinds of stuff to add to dates:
+Time and dates in diff formats
+Week of the year
+Time Zone
+
+Don't use colons in time stamps.
+They're special characters.
+Use hyphens.
+
+10-19-22
+3:11 PM
+View info on a package
+apt-cache show <package-name>
+(Without the less than and greater than signs.)
+bash: aptitude: command not found
+
+/
+.
+.
+.
+.
+
+
+
+
+
+/
+.
+.
+.
+.
+
