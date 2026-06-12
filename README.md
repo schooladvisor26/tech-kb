@@ -3,14 +3,15 @@ My tech knowledge base
 Dee  
 1-9-26
 
-### To be added eventually:
+### "My Knowledge bases" (basically journals and notes on the operating systems I used):
 1. [xubuntu-kb](https://dynalist.io/d/oTjIMoXnGUyuJ4J4wv20cjXm)
 2. [linux-mint-kb](https://dynalist.io/d/3fZyTGq8kKe6pSqRMe_ihlux)
 3. [debian-kb](https://dynalist.io/d/majqYu9yqWh4Ueiq0QBQkE6_)
 4. [bunsenlabs-kb](https://dynalist.io/d/NLEMl5chaw3KgqEupPuwUj6a)
-5. pop-os-kb
+5. [pop-os-kb](https://dynalist.io/d/PpDH59xteNUJyaM3i8WMufj1)
 6. macos-kb
-7. bodhi-linux-kb
+7. [bodhi-linux-kb](https://dynalist.io/d/Q7p88cCSVVctrRn_RV6qkYUL)
+8. [bodhi-linux-kb-part-2](https://dynalist.io/d/qcZqZl_OhFg3iH3A6zkKj1Fa)
 
 (To add: Description of each OS and the hardware I was using.)
 
