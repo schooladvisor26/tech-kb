@@ -1,0 +1,191 @@
+bunsenlabs-kb
+Debrezion (Dee) Berhe Gebre
+https://www.facebook.com/debrezion.berhegebre
+
+(10-25-22 - 12-28-22)
+
+Adapted from my: bunsenlabs-kb.txt
+
+Dee
+10-25-22
+bunsenlabs-kb.txt
+
+10-25-22
+12:36 PM
+I'm going to keep displaying the toolbar in Geany because it has a button for "Save All."
+I don't know the keybinding.
+
+= =
+10-25-22
+How To COMPLETELY Remove Applications On Linux
+19,455 views
+Oct 16, 2022
+
+sudo apt remove program
+ doesn't remove any configuration files or dependencies
+
+sudo apt purge program
+sudo apt autoremove
+ System smart enough to do this when you update most of the time.
+
+Package managers typically are not allowed to touch your home directory for security reasons.
+Obviously it could be dangerous if they could.
+
+Manually delete user config files in home directory.
+CTRL+H to see hidden files
+
+pacman for Arch
+sudo find / -iname program
+sudo snap remove program
+sudo find / -iname program
+
+flatpak
+flatpak list
+flatpak uninstall com.github.Eloston.UngoocledChromium
+sudo find / -iname ungoogled
+sudo flatpak uninstall --delete-data
+
+The easiest kind of package to uninstall is probably AppImage.
+Just delete the file.
+The only thing left is user files in home directory.
+
+Packages installed from source
+Take a look at Makefile
+tells you where man page and readme are
+Building from source can leave a lot of junk scattered on your computer.
+
+Review
+/home/you/.config
+/home/you/.cache
+/home/you/.local/share
+
+= =
+10-25-22
+The command xprop tells you what program you're running.
+
+
+10-29-22
+NDSLIMC
+My window button setup in Openbox on Bunsen labs Linux.
+(Buttons on left-hand side of windows)
+
+10-30-22
+Commands
+apt-cache search "package"
+apt show "package"
+Without the double quotation marks and where package is the name of a package.
+
+10-31-22
+Lithium - The current release is derived from Debian 10.
+
+11-6-22
+2:44 PM
+Changed the keybinding for launching a terminal to Super + Enter
+Then I updated the list of shortcut keys in .config/conky by changing this
+Super + Enter${alignr}Terminal
+Next up:
+<!-- Keybindings for windows -->
+ <keybind key="A-F8">
+ <action name="Close"/>
+ </keybind>
+
+11-7-22
+12:00 PM
+2022/11/07 12:00:41
+Listing... Done
+libavcodec58/oldstable 7:4.1.10-0+deb10u1 amd64 [upgradable from: 7:4.1.9-0+deb10u1]
+libavfilter7/oldstable 7:4.1.10-0+deb10u1 amd64 [upgradable from: 7:4.1.9-0+deb10u1]
+libavformat58/oldstable 7:4.1.10-0+deb10u1 amd64 [upgradable from: 7:4.1.9-0+deb10u1]
+libavresample4/oldstable 7:4.1.10-0+deb10u1 amd64 [upgradable from: 7:4.1.9-0+deb10u1]
+libavutil56/oldstable 7:4.1.10-0+deb10u1 amd64 [upgradable from: 7:4.1.9-0+deb10u1]
+libpixman-1-0/oldstable 0.36.0-1+deb10u1 amd64 [upgradable from: 0.36.0-1]
+libpostproc55/oldstable 7:4.1.10-0+deb10u1 amd64 [upgradable from: 7:4.1.9-0+deb10u1]
+libswresample3/oldstable 7:4.1.10-0+deb10u1 amd64 [upgradable from: 7:4.1.9-0+deb10u1]
+libswscale5/oldstable 7:4.1.10-0+deb10u1 amd64 [upgradable from: 7:4.1.9-0+deb10u1]
+sudo/oldstable 1.8.27-1+deb10u4 amd64 [upgradable from: 1.8.27-1+deb10u3]
+ 
+11-7-22
+How do I change LVM password?
+
+11-10-22
+3:27 PM
+LQ forums for specific distributions
+ Linux - Distributions
+This forum is for Distribution specific questions.
+Red Hat, Slackware, Debian, Novell, LFS, Mandriva, Ubuntu, Fedora - the list goes on and on... Note: An (*) indicates there is no official participation from that distribution here at LQ.
+Sub-Forums: Linux From Scratch, Slackware, Debian, Arch, Mandriva, Red Hat, Fedora, VectorLinux, (Curseword)SmallLinux, SUSE / openSUSE, Ubuntu, Puppy, Zenwalk, Linux Mint, Incognito, Sabayon, Gentoo, Calculate, Bodhi, Mageia, NetSecL, Linux Deepin, Zorin OS, Dragora GNU/Linux-Libre, 4MLinux, Microlinux / MLED, Bedrock Linux, AryaLinux, PrathamOS, Cucumber Linux, NuTyX, antiX / MX Linux, slarm64, CentOS, elementary OS, Manjaro
+
+
+...
+3:53 PM
+LinuxQuestions.org - Forum Rules
+"This page was last updated on 03/30/2012."
+
+11-11-22
+11:31 AM
+Apparently, I'm using Xorg.
+I don't even know about Xorg and Wayland.
+I think there was something called Mir too.
+
+11-15-22
+11:34 AM
+Listing... Done
+grub-common/oldstable 2.06-3~deb10u2 amd64 [upgradable from: 2.06-3~deb10u1]
+grub-pc-bin/oldstable 2.06-3~deb10u2 amd64 [upgradable from: 2.06-3~deb10u1]
+grub-pc/oldstable 2.06-3~deb10u2 amd64 [upgradable from: 2.06-3~deb10u1]
+grub2-common/oldstable 2.06-3~deb10u2 amd64 [upgradable from: 2.06-3~deb10u1]
+
+11-15-22
+11:49 AM
+I couldn't get AppImages to work.
+They worked fine in Ubuntu and Linux Mint.
+
+12-22-22
+Used cp to flash a USB yesterday.
+See bookmarks or just look at Stackoverflow and linux dot com.
+
+12-28-22
+6:53 PM
+2022/12/28 18:53:45
+$ apt list --upgradable
+Listing... Done
+firefox-esr/oldstable 102.6.0esr-1~deb10u1 amd64 [upgradable from: 102.5.0esr-1~deb10u1]
+grub-common/oldstable 2.06-3~deb10u3 amd64 [upgradable from: 2.06-3~deb10u2]
+grub-pc-bin/oldstable 2.06-3~deb10u3 amd64 [upgradable from: 2.06-3~deb10u2]
+grub-pc/oldstable 2.06-3~deb10u3 amd64 [upgradable from: 2.06-3~deb10u2]
+grub2-common/oldstable 2.06-3~deb10u3 amd64 [upgradable from: 2.06-3~deb10u2]
+libarchive13/oldstable 3.3.3-4+deb10u2 amd64 [upgradable from: 3.3.3-4+deb10u1]
+libde265-0/oldstable 1.0.3-1+deb10u1 amd64 [upgradable from: 1.0.3-1+b1]
+libgif7/oldstable 5.1.4-3+deb10u1 amd64 [upgradable from: 5.1.4-3]
+libgssapi-krb5-2/oldstable 1.17-3+deb10u5 amd64 [upgradable from: 1.17-3+deb10u4]
+libk5crypto3/oldstable 1.17-3+deb10u5 amd64 [upgradable from: 1.17-3+deb10u4]
+libkrb5-3/oldstable 1.17-3+deb10u5 amd64 [upgradable from: 1.17-3+deb10u4]
+libkrb5support0/oldstable 1.17-3+deb10u5 amd64 [upgradable from: 1.17-3+deb10u4]
+libksba8/oldstable 1.3.5-2+deb10u2 amd64 [upgradable from: 1.3.5-2+deb10u1]
+libntfs-3g883/oldstable 1:2017.3.23AR.3-3+deb10u3 amd64 [upgradable from: 1:2017.3.23AR.3-3+deb10u2]
+libopenexr23/oldstable 2.2.1-4.1+deb10u2 amd64 [upgradable from: 2.2.1-4.1+deb10u1]
+libvlc-bin/oldstable 3.0.17.4-0+deb10u2 amd64 [upgradable from: 3.0.17.4-0+deb10u1]
+libvlc5/oldstable 3.0.17.4-0+deb10u2 amd64 [upgradable from: 3.0.17.4-0+deb10u1]
+libvlccore9/oldstable 3.0.17.4-0+deb10u2 amd64 [upgradable from: 3.0.17.4-0+deb10u1]
+linux-image-amd64/oldstable 4.19+105+deb10u18 amd64 [upgradable from: 4.19+105+deb10u17]
+linux-libc-dev/oldstable 4.19.269-1 amd64 [upgradable from: 4.19.260-1]
+ntfs-3g/oldstable 1:2017.3.23AR.3-3+deb10u3 amd64 [upgradable from: 1:2017.3.23AR.3-3+deb10u2]
+vim-common/oldstable 2:8.1.0875-5+deb10u4 all [upgradable from: 2:8.1.0875-5+deb10u3]
+vim-tiny/oldstable 2:8.1.0875-5+deb10u4 amd64 [upgradable from: 2:8.1.0875-5+deb10u3]
+vlc-bin/oldstable 3.0.17.4-0+deb10u2 amd64 [upgradable from: 3.0.17.4-0+deb10u1]
+vlc-data/oldstable 3.0.17.4-0+deb10u2 all [upgradable from: 3.0.17.4-0+deb10u1]
+vlc-plugin-base/oldstable 3.0.17.4-0+deb10u2 amd64 [upgradable from: 3.0.17.4-0+deb10u1]
+vlc-plugin-notify/oldstable 3.0.17.4-0+deb10u2 amd64 [upgradable from: 3.0.17.4-0+deb10u1]
+vlc-plugin-qt/oldstable 3.0.17.4-0+deb10u2 amd64 [upgradable from: 3.0.17.4-0+deb10u1]
+vlc-plugin-video-output/oldstable 3.0.17.4-0+deb10u2 amd64 [upgradable from: 3.0.17.4-0+deb10u1]
+vlc/oldstable 3.0.17.4-0+deb10u2 amd64 [upgradable from: 3.0.17.4-0+deb10u1]
+xxd/oldstable 2:8.1.0875-5+deb10u4 amd64 [upgradable from: 2:8.1.0875-5+deb10u3]
+
+12-28-22
+Cool commands:
+	w
+	last
+	xprop
+	htop
+	
+
