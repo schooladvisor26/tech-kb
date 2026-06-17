@@ -1,0 +1,302 @@
+bodhi-linux-kb
+Debrezion (Dee) Berhe Gebre
+https://www.facebook.com/debrezion.berhegebre
+
+---
+type: Page
+collections: archive
+title: bodhi-linux-kb
+description: null
+icon: null
+createdAt: '2025-02-06T20:23:31.753Z'
+creationDate: 2025-02-06 12:23
+modificationDate: 2025-02-06 13:16
+tags: [linux]
+coverImage: null
+---
+
+bodhi-linux-kb
+D.
+Bodhi Linux KB (Knowledge base)
+9-13-24
+
+
+Date completed: 11-6-24 (2-17-26)
+
+
+
+9-13-24
+
+The only changes I've made so far are: upgrading the system, changing the wallpaper, changing the theme to Moksha ArcDark, and setting Sunday as the first day of the week in the calendar widget.
+
+
+
+9-17-24
+
+Web Browser Manager
+
+Falkon, Palemoon, and Slimjet are all in Ubuntu's repos. So are Chromium and Firefox of course. Since Bodhi already comes with Chromium, I would probably just add Firefox. Note that Brave, Chrome, Opera, Vivaldi, and Waterfox have their own repos.
+
+
+
+9-17-24
+
+Note that I've been calling docs knowledge bases for years now, but I don't know if I'm using the term correctly. It's worth quick Google search. I just looked it up. There are multiple definititons of the term, but I seem to be using it correctly. I can call these online notes and plain text files knowledge bases if you ask me.
+
+
+
+9-17-24
+
+Big problem:
+
+I don't know how to access ttys on this Mac. Control+Alt/Option+"an F key" doesn't work.
+
+
+
+9-18-24
+
+I don't know how to Ctrl+Alt+Delete either on this mac keyboard.
+
+
+
+
+9-19-24
+
+On Linux on my MBA I'm using:
+130.0.1 Firefox Release
+September 17, 2024
+As one of my browsers.
+
+
+
+9-21-24
+sudo apt search flameshot
+
+
+
+9-21-24
+
+I changed the wallpaper to a custom screenshot.
+
+
+9-23-24
+
+Press Command to open the Quick Launcher. From there you can start typing the name of an app.
+
+
+
+9-23-24
+
+Today I updated my system, got my system tray back to normal with launchers for Chromium, Firefox, Terminology, and Leafpad again, and added a MBA theme to Firefox.
+
+
+
+9-26-24
+
+Problem solved
+
+fn+Ctrl+Option+f2 to switch to tty2
+
+fn+Ctrl+Shift+Del to delete browsing history in Chromium
+
+
+
+9-29-24
+
+I didn't test suspend and hibernate until today. Suspend didn't seem to work but hibernate did. I'm holding off on testing WiFi connection but I'm sure it works with the adapter I have. It did in a live sesion.
+
+I couldn't tell you when but I changed the theme, moved the panel to the top of the screen (where it should be), and added Firefox and Leafpad launchers to the panel. I feel like someone I know or a novice. I don't want to tinker around with settings and themes because I don't want to mess anything up. Of course I may not learn unless I make mistakes and correct them. The Moksha desktop is fine for me. The only thing I would want are the minimize, maximize, and close buttons on the left side of the windows and the option to use a light theme. I can always use Geany and also try to switch to a light theme in Obsidian.
+
+
+
+9-29-24
+
+How do I suspend from the command line? How do I hibernate?
+
+
+
+9-29-24
+
+/$ df -h
+
+Filesystem      Size  Used Avail Use% Mounted on
+
+tmpfs           383M  1.5M  381M   1% /run
+
+/dev/nvme0n1p2  111G   13G   92G  13% /
+
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+
+/dev/nvme0n1p1  511M  6.1M  505M   2% /boot/efi
+
+tmpfs           383M   36K  383M   1% /run/user/1000
+
+
+
+9-30-24
+
+Is it leafpad or Mousepad?
+
+
+
+9-30-24
+
+Google tos (pages and estimated reading time)
+
+Google Terms of Service – Privacy & Terms – Google
+
+Effective May 22, 2024 (5-22-24)
+
+20 pages
+
+25–31 minutes
+
+(according to Firefox)
+
+
+
+Privacy Policy – Privacy & Terms – Google
+
+Effective September 16, 2024 (9-16-24)
+
+39 pages
+
+41–52 minutes
+
+
+
+
+9-30-24
+
+MBA Battery @ 71% and the icon indicates there's 4:22 left (4 hours, 22 minutes).
+
+
+
+9-30-24
+
+I'm not sure if it matters but I don't know if I'm running Mousepad, Leafpad, or if Leafpad is based on Mousepad. I see both names in various places. The Help > About says Mousepad, but the Quick Launcher and Main Menu says Leafpad and the interface doesn't "feel" like Mousepad.
+
+
+
+9-30-24
+
+MBA Battery @ 46% and the icon indicates there's 0:37 left (37 minutes).
+
+
+
+9-30-24
+
+MBA Battery @ 30% and the icon indicates there's 1:01 left (1 hour and 1 minutes).
+
+
+
+10-1-24
+
+I'm callibrating my MBA battery today.
+
+MBA Battery @ 90% and the icon indicates there's 3:30 left (3 hours and 30 minutes).
+
+It changes constantly. I think I have a bad battery. Let's just see how long it lasts today. It's 11:15 AM.
+
+Now it's 4:20 PM. I booted up again.
+
+MBA Battery @ 53% and the icon indicates there's 1:53 left (1 hour and 53 minutes).
+
+
+
+10-2-24
+
+6:52 AM
+
+I drained the battery yesterday and charged it this morning. The green light that supposed to mean the battery is full charged is on but the panel has a 98% when I hover over the battery icon. It's like the battery will only charge to 98%.
+
+
+
+10-2-24
+
+8:33 AM
+
+Now the battery "says" it's at 100%. That's good but the fact that it took so long seems to mean it's in bad condition.
+
+
+
+10-3-24
+
+I guess Librewolf, released in 2020,  is too new to be included in Bodhi's Web Browser manaager.
+
+It's even newer than Brave.
+
+I couldn't find it using APT either so I don't think it's in Ubuntu's repos.
+
+It's not in their primary repos at least.
+
+
+
+10-3-24
+
+My charger has the green light which is supposed to mean my battery is at 100%, but the icon in the panel actually shows it's at 96%.
+
+
+
+10-3-24
+
+This thing has been on for 45 minutes and is starting to get hot. I'll have to logout for a while.
+
+
+
+10-7-24
+
+Been using my laptop since I got home. Now it's overheating.
+
+It's 4:10 PM and I'll shut down.
+
+
+
+10-7-24
+
+Fixes for recent upgrade problems:
+
+sudo apt full-upgrade (or sudo apt dist-upgrade), which will upgrade the held packages by handling any new dependencies or removals as needed.
+
+
+
+10-8-24
+
+I changed the date format in the clock on the panel to %m/%d/%y.
+
+
+
+10-10-14
+
+Note about two packages kept back. They seem to be for Ubuntu 22.02.4 and I think my Spin is based on Ubuntu 22.04.1.
+
+Here are the details (output of apt list --uprgadable):
+
+Listing...
+
+libnetplan0/jammy-updates 0.107.1-3ubuntu0.22.04.1 amd64 [upgradable from: 0.106.1-7ubuntu0.22.04.4]
+
+netplan.io/jammy-updates 0.107.1-3ubuntu0.22.04.1 amd64 [upgradable from: 0.106.1-7ubuntu0.22.04.4]
+
+
+
+10-20-24
+
+Okay the time between the green light turning on and the battery icon displaying 100% was like 3 hours FYI. I was using the laptop during that time.
+
+
+
+10-22-24
+
+I can just click on the analog clock on my desktop to see an overview of the month. I don't have to run cal in a terminal.
+
+
+
+11-6-24
+
+It's official. This machine (Macbook) is not secure. There's a problem with the CPU just like there was on my last Linux laptop. I should consider not using Outlook dot com on it and maybe not even Zoho (d) but only the Zoho acct. I made on this machine, Zoho 3. Having Thunderbird may help with that, but I've been warned about desktop email. S.o. hates the idea and Jon said it poses some risk. I just don't want to log in to an important email on this computer.
+
+-
+End

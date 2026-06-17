@@ -1,0 +1,111 @@
+bodhi-linux-kb-part-2
+Debrezion (Dee) Berhe Gebre
+https://www.facebook.com/debrezion.berhegebre
+
+---
+type: Page
+collections: archive
+title: bodhi-linux-kb-part-2
+description: null
+icon: null
+createdAt: '2025-02-06T20:17:28.867Z'
+creationDate: 2025-02-06 12:17
+modificationDate: 2025-02-06 13:16
+tags: [linux]
+coverImage: null
+---
+
+bodhi-linux-kb-part-2.txt
+Bodhi Linux Knowledge Base
+D.
+11-8-24
+
+Date completed: 12-12-24 (2-17-26)
+
+(12-24-24)
+My headline: MDS - Microarchitectural Data Sampling — The Linux Kernel documentation
+[https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html](https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html)
+This hardware vulnerability means I can never use this machine for anything sensitive? Or sell it to an inexperienced user (especially it it will be his or her only computer)?
+
+11-8-24
+So far I've: updated my system, installed third party drivers, and blocked js for several sites in Chromium. I moved the panel to the top too. I changed the wallpaper, to a solid color, but I want to put a message on it. Apparently the standard version of Bodhi only comes with one theme. I wanted to change the theme but that's fine as long as I can get a digital clock in the panel. I changed my wallpaper to one with a message for myself.
+
+11-8-24
+Shelf (panel)
+Defaut height: 32 pixels
+Icons size 3/5
+I changed the height to 40 pixels.
+
+11-8-24
+I wasn't able to change my user name. Some process or another was holding me up.
+
+11-10-24
+I created four more essential docs today:
+2024-paste-here-mac-tux-v2.txt
+journal-mac-2024-part-2.txt
+README.txt
+system-apps.txt
+I get this error message:
+???
+All have the best names I could think of while still following the "setup" I had on my previous installation of Bodhi Linux.
+
+11-10-24
+There may be something wrong with my DDG Chrome ext.
+I can't search via the address bar.
+Your file couldn’t be accessed
+It may have been moved, edited, or deleted.
+ERR_FILE_NOT_FOUND
+== It might be a good thing, because it might force me to use search engines instead of typing URLs.
+
+11-10-24
+How to install drivers post install
+sudo ubuntu-drivers devices
+sudo ubuntu-drivers list
+sudo ubuntu-drivers install
+
+11-10-24
+My mac just started humming. I've been using for over an hour and all I just did was connect to WiFi and clicked on a link. I don't want to do oany damage so I'll shut down now and charge this thing.
+
+11-11-24
+One, I'll keep the name bodhi-linux-kb-part-2.txt because this a fresh install and changes made to my OS on previous installs aren't relevant.
+Two, it's 2:20 PM and my battery is at 98% (saying 1:01 underneath the percent). Let me see how long it takes to get to 100%.
+It's 3:08 PM and it still "says" 98%. I got it to charge to 100% recently. It was yesterday or this morning.
+It's 3:33 PM and now it's at 99%. I better logout while I'm lucky. I jus‌‌t need to add notes to system-apps.txt.
+
+11-14-24
+I set Bodhi/Moksha to remember the size and position among other things about Leafpad after getting frustrated to how it launched hiding the shelf.
+I did it by right clicking the title bar and clicking remember and then selecting all after setting up the window the way I wanted to. First the window wasn't long enough or something and the bottom line would show but now I got it just right. It takes up about half the screen.
+
+11-26-24
+I downloaded the dimensions theme and am now using it. The only themes initially available were default and MokshaGreen.
+
+11-27-24
+Bash message
+$ apt list --upgradable > ~/Documents/updates/updates-2024-11-27.txt
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+I also run:
+sudo apt upgrade > ~/Documents/upgrades/upgrades-2024-11-27.txt
+and get the same message but at least the first command tells me when it's done. I often have to hit CTRL+C after the second.
+
+11-27-24
+Installing Etcher is straightforward.
+Click on the link for debs on the home page and it'll take you to the GitHub.
+Download the latest deb from Assets just like it says.
+You can save it to Downloads and cd to Downloads.
+Run the command with the right version number and you're set.
+
+11-27-24
+I forgot to sha256sum ISO before flashing (rookie mistake).
+I checked it now.
+Now I'm going to boot from the 32 GB USB drive.
+
+12-3-24
+Command to count lines of text in apt list:
+apt list -i | wc -l
+
+12-12-24
+This document is currently about 2 pages. It's 2 pages if you printed it out at least. It's also one of my larger essential docs at 3.6 KiB.
+
+-
+End

@@ -1,0 +1,164 @@
+pop-os-kb
+Debrezion (Dee) Berhe Gebre
+https://www.facebook.com/debrezion.berhegebre
+
+Debrezion (Dee)
+2023
+Time period in another format sometimes like Mo. YYYY
+pop-os-kb.txt
+Technology
+Date: 1-1-23
+Date completed: 1-17-23 (2-17-26)
+pop-os-kb (knowledgebase)
+%% Note: I'm using Pop_OS! 22.04 LTS
+
+RULER (75 characters):
+123456789012345678901234567890123456789012345678901234567890123456789012345
+ 1 2 3 4 5 6 7
+1-2-23
+I was wrong.
+I thought Pop_OS would just automatically find drivers for the printer/scanner.
+I thought it would do that like Ubuntu did.
+It turns out you have to hunt down the drivers yourself.
+That's one difference between Ubuntu and Pop_OS.
+
+1-2-23
+The Pop Shop features Atom which is no longer maintained.
+Atom lives on as a new text editor called Pulsar.
+I want to give Pop OS a chance but it's letting me down a little.
+Then again not scanning documents easily isn't a deal breaker for me.
+If I had to, I could do via CLI.
+https://pulsar-edit.dev
+Pulsar
+Pulsar A Community-led Hyper-Hackable Text Editor Download 💡 Cross-platform Editing Pulsar works across operating systems. Use it on OS X, Windows, or Linux. Built-in package manager Search and install new packages or create your own right from Pulsar. Smart Autocompletion Pulsar helps you write code faster with a smart and flexible autocomplete.
+
+1-3-23
+uptime command output:
+Time (HH:MM:SS) up, total time up (H:MM), load average (I don't know what load average is)
+uptime -p ("P" for pretty) output:
+uptime in human readable format like: up 2 hours, 14 minutes
+
+1-3-23
+5:22 PM
+Is being super careful with web browsing and installing software and also maybe using NoScript enough of a security measure? I just can't forget about supporting sites by allowing ads.
+
+1-9-23
+9:42 AM
+I could have downloaded Pop OS 20.04 about two years ago and been using it now.
+It probably would have run faster than Pop OS 22.04.
+
+1-9-23
+3:58 PM
+Virt-manager
+Related topics
+libvirt
+Virtual Machine Manager
+QEMU
+Virtual machine
+VirtualBox
+Kernel-based Virtual Machine
+Hypervisor
+VMware
+Virtualization
+Virtual Desktop Infrastructure
+
+1-9-23
+du -h
+12G	.
+USER@pop-os:/$ df
+Filesystem 1K-blocks Used Available Use% Mounted on
+tmpfs 801968 1720 800248 1% /run
+/dev/sda1 956171312 12339916 895186804 2% /
+tmpfs 4009824 0 4009824 0% /dev/shm
+tmpfs 5120 0 5120 0% /run/lock
+tmpfs 801964 1704 800260 1% /run/user/1000
+USER@pop-os:/$ df -h
+Filesystem Size Used Avail Use% Mounted on
+tmpfs 784M 1.7M 782M 1% /run
+/dev/sda1 912G 12G 854G 2% /
+tmpfs 3.9G 0 3.9G 0% /dev/shm
+tmpfs 5.0M 0 5.0M 0% /run/lock
+tmpfs 784M 1.7M 782M 1% /run/user/1000
+
+1-10-23
+11:53 AM
+I have to decide if I'm going to treat this Linux laptop (ThinkPad) as a safe PC or not.
+MDS - Microarchitectural Data Sampling — The Linux Kernel documentation
+https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html
+What am I not willing to do on it?
+Enter: SSN, Student email/WebAdvisor/Canvas, Pay bills or buy things online.
+I already don't use WordPress.com, WorkFlowy, or any Google accounts on it.
+
+1-10-23
+Settings > Accessibility > Pointing & Clicking > Locate Pointer
+Now, pressing CTRL helps me locate the pointer by making a cirlce light up around it.
+
+1-11-23
+5:11 PM
+Rule #1: Never shutdown a Linux PC in the middle of an update.
+Rule #2: Don't download "random" programs from "random" websites on Linux the way you do on Windows. Use a software store or a package manager/command line instead.
+
+1-12-23
+No upd
+$ sudo apt upgrade
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Calculating upgrade... Done
+The following packages were automatically installed and are no longer required:
+ appmenu-gtk-module-common appmenu-gtk2-module appmenu-gtk3-module
+ libappmenu-gtk2-parser0 libappmenu-gtk3-parser0 libgl1-amber-dri libllvm13
+ libllvm13:i386 libvulkan1:i386 libwayland-client0:i386 libxcb-randr0:i386
+ mesa-vulkan-drivers:i386
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+1-14-23
+3:35 PM
+My admin key is 21 characters long.
+I can launch Text Editor by pressing SUPER > and then E > Enter.
+I can switch focus to the workspace below by pressing Super + Ctrl + DOWN.
+I can maximize a window by double-clicking the title bar.
+I can do it by pressing Super + M as well.
+
+1-14-23
+3:43 PM
+Pop shop not loading for me since like 1-12-23.
+During some sessions, pop shop won't open unless your system is restarted or is closed in system monitor. · Issue #190 · pop-os/shop · GitHub
+https://github.com/pop-os/shop/issues/190
+
+...
+4:39 PM
+https://flathub.org/apps/details/org.gnome.Epiphany
+https://flatpak.org/setup/Pop!_OS
+
+1-16-23
+7:39 AM
+Pop OS was initally launched on 10-27-17.
+Manjaro on the other hand was first released on 7-11-11.
+I got that from TechHut and verified it with Google.
+
+1-17-23
+6:31 PM
+VS Code (as a flatpak) settings and more info (Getting started)
+Themes: CTRL+K CTRL+T
+One shortcut to access everything
+CTRL+SHIFT+P
+"Open command palette"
+ try doing a search for 'view toggle'.
+... Rich support for languages
+Many languages built in and many are can be added as extensions
+Open up your code
+ Open a project folder to put your files in VS Code.
+ "Pick a folder"
+ Ctrl+K Ctrl+O
+Redefine your editing skills
+"Open Editor Playground"
+Built-in Terminal
+Ctrl+`
+Extension Marketplace
+search keyword: @recommended 
+Tweak settings
+ Ctrl+,
+Workplace Trust... project folders should **allow or restrict**... (extensions, debugging, etc).
+file folder ... grant trust... enable trust later if you want.
