@@ -86,7 +86,8 @@ I have to decide if I'm going to treat this Linux laptop (ThinkPad) as a safe PC
 MDS - Microarchitectural Data Sampling — The Linux Kernel documentation
 https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html
 What am I not willing to do on it?
-Enter: SSN, Student email/WebAdvisor/Canvas, Pay bills or buy things online.
+Enter: Anything sensitive
+
 I already don't use WordPress.com, WorkFlowy, or any Google accounts on it.
 
 1-10-23
