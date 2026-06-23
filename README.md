@@ -15,6 +15,9 @@ Dee
 
 (To add: Description of each OS and the hardware I was using.)
 
+### darkmode folder
+Practice webpage with option to toggle dark and light mode
+
 ## Note to self:  
 Read the [GitHub Terms of Service - GitHub Docs](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) and [GitHub General Privacy Statement - GitHub Docs](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).  
 
